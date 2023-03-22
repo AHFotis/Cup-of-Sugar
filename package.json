@@ -1,24 +1,23 @@
 {
-  "name": "group-project-2",
+  "name": "Cup-of-Sugar",
   "version": "1.0.0",
-  "description": "<ol>   <li><a href=\"#description\">Description</a></li>   <li><a href=\"#installation\">Installation</a></li>   <li><a href=\"#usage\">Usage</a></li>   <li><a href=\"#contributing\">Contributing</a></li>   <li><a href=\"#testing\">Testing</a></li>   <li><a href=\"#questions\">Questions</a></li>   <li><a href=\"#license\">License</a></li>   </ol>",
+  "description": "An app to help neighbors be good neighbors",
   "main": "server.js",
   "scripts": {
-    "build": "cd client && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "esversion": "8",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Litabeach/Group-Project-2.git"
+    "url": "git+https://github.com/AHFotis/Cup-of-Sugar.git"
   },
-  "author": "",
+  "author": "Anna Hickey Fots, Omaur Bliss, Lita Beach, Kyle Kleven, Amy Pastorius",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Litabeach/Group-Project-2/issues"
+    "url": "https://github.com/AHFotis/Cup-of-Sugar/issues"
   },
-  "homepage": "https://github.com/Litabeach/Group-Project-2#readme",
+  "homepage": "https://github.com/AHFotis/Cup-of-Sugar#readme",
   "dependencies": {
     "axios": "^0.21.1",
     "bcrypt": "^5.0.1",
@@ -31,6 +30,7 @@
     "mysql2": "^2.2.5",
     "node": "^15.12.0",
     "nodemon": "^2.0.7",
-    "sequelize": "^6.6.2"
+    "sequelize": "^6.6.2",
+    "yarn": "^1.22.19"
   }
 }
