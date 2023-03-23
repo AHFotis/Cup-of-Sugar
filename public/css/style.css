@@ -212,4 +212,8 @@ a:hover {
     flex-direction: column;
   }
 
+  #headerLogo {
+    margin-right: 0;
+  }
+
 }
