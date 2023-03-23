@@ -1,11 +1,12 @@
 {
-  "name": "Cup-of-Sugar",
+  "name": "cup-of-sugar",
   "version": "1.0.0",
   "description": "An app to help neighbors be good neighbors",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "seed": "node seeds/seed.js"
   },
   "esversion": "8",
   "repository": {
